@@ -1,0 +1,22 @@
+name: form-bonito e feio_48
+
+on: push
+
+jobs: 
+
+  runs-on: ubuntu-latest
+
+  steps: 
+
+    - name: setup node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.17.x
+        cache: npm
+
+    - name: install
+      run: npm ci
+
+    - name: show message
+      run: echo Hello World!
+
