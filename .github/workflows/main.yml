@@ -1,6 +1,7 @@
 name: form-bonito e feio_48
 on: push
 jobs: 
+  install-and-show-message:
   runs-on: ubuntu-latest
   steps: 
     - name: setup node
