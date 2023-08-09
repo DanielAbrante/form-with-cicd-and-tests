@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Profile() {
   return (
     <main>
       <h1>Bem-vindo!</h1>
